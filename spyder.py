@@ -20,4 +20,3 @@ while i<118:
             'Phase':primeiroElemento[j+6],'Radioactive':primeiroElemento[j+7],'Type':primeiroElemento[j+8]}
     matrix.append(dict)
     i += 1
-    j = 0
