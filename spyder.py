@@ -15,7 +15,7 @@ firstfill = table.loc[:,['Element','Symbol','AtomicMass','AtomicNumber','Numbero
 '''replacing nan values'''
 firstfill['Radioactive'] = firstfill['Radioactive'].fillna("no")
 
-'''filetering by values'''
+'''filtering by values'''
 secondfill = firstfill.iloc[:].values
 
 ''' Creating a list of dictionaries'''
